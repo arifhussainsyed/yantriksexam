@@ -1,0 +1,4 @@
+com\example\assessment\model\Supply.class
+com\example\assessment\model\Product.class
+com\example\assessment\AssessmentApplication.class
+com\example\assessment\controller\MainController.class
