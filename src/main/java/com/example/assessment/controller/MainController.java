@@ -40,6 +40,8 @@ public class MainController {
 
     @PostMapping("/updateSupply")
     public Supply updateSupply(@RequestBody Supply supply) {
+//      This is not working. 
+//      Was having some issues, need to resolve fix some stuff with this code
         List<Supply> supplyList = new ArrayList<Supply>();
         supplyList.add(new Supply("Product1", new Date("2021-03-16T08:53:48.616Z"), 10.0));
         supplyList.add(new Supply("Product2", new Date("2021-03-16T08:53:48.616Z"), 5.0));
